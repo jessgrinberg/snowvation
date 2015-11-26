@@ -50,10 +50,10 @@ p {
 	margin: 20px 10px 40px;
 }
 
-.hero-text-box {
+.text-box {
     position: absolute;
 /*    width: 1140px;*/
-	width:110vm;
+/*	width:100%;*/
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -114,6 +114,13 @@ input {
 	color: #000;
 }
 
+
+
+nav li a:hover,
+nav li a:active {
+	border-bottom: 2px solid #23387A;
+}
+
 .section-form input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 7px;
@@ -170,11 +177,30 @@ footer {
     color: #888;
 }
 
-footer p {
+.footer-contact {
+	color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-contact li  {
+	display: block;
+}
+
+.footer-contact li a {
+	text-decoration: none;
+	color: #888;
+}
+
+footer p   {
     color: #888;
     text-align: center;
     margin-top: 20px;
 }
+
+/*footer a {
+	text-decoration: none;
+}*/
 
 .footer-nav {
     list-style: none;
