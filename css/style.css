@@ -21,6 +21,7 @@ a:hover,
 a {
 	text-decoration: none;
 	color: #555; 
+
 }
 
 header {
@@ -94,9 +95,16 @@ section {
 }
 
 .navbar-default {
-	padding: 8px;
+/*    padding: 1px; 
+	padding-top: 8px;
+*/
+    padding: 8px;
 }
 
+/*.navbar-nav>li>a {
+	margin-bottom: -10px;
+}
+*/
 .carousel-control.left, .carousel-control.right {
     background-image: none
 }
@@ -235,5 +243,9 @@ footer p   {
 
 .social-links li a:link, .social-links li a:visited {
     font-size: 160%;
+}
+
+.section-features h3, .section-features i {
+    text-align: center;
 }
 
