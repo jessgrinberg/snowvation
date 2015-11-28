@@ -174,17 +174,24 @@ nav li a:active {
 }
 
 .btn {
-	padding: 14px 35px;
+	padding: 14px 35px ;
 	margin-bottom: 5px;
 	background-color:#23387A;
 	font-size: 16px; 
     border-radius: 0;
     overflow: hidden;
+    border: 1px solid #23387A;
 }
 
 .btn:hover {
 	color: #777;
     background-color: #00AAF4;
+    border: 1px solid #00AAF4;
+}
+
+.section-form input[type=submit]:hover {
+    background-color: #00AAF4;
+    border: 1px solid #00AAF4;
 }
 
 footer {
