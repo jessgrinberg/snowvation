@@ -267,8 +267,14 @@ footer p   {
 }
 
 .carousel-inner{
-    background-image: url('img/mac.png');
+    background-image: url('img/mac2.png');
     background-repeat: no-repeat;
-    height: 500px;
-    left: 25%
+    height: 600px;
+    left: 10%;
+}
+
+.carousel-inner img {
+    margin: 35px 140px;
+    width:667px;
+    height:418px;
 }
