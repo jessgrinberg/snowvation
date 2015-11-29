@@ -268,13 +268,15 @@ footer p   {
 
 .carousel-inner{
     background-image: url('img/mac2.png');
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 600px;
-    left: 10%;
+    height: 700px;
+    right: 0;
+    left: 0;
 }
 
 .carousel-inner img {
-    margin: 35px 140px;
-    width:667px;
-    height:418px;
+    margin: 40px 182px;
+    width: 69%;
+    height: 70%;
 }
