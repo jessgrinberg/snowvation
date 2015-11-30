@@ -273,10 +273,27 @@ footer p   {
     height: 700px;
     right: 0;
     left: 0;
+
 }
 
-.carousel-inner img {
+/*.carousel-inner > img {
     margin: 40px 182px;
     width: 69%;
-    height: 70%;
+    height: 490px;
+    position: relative;
 }
+*/
+.carousel-inner > .item > img{
+       width:780px;
+       height:490px;
+       margin: 40px 180px;
+
+
+     }
+
+/*.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 100%;
+    height: auto;
+}*/
+/*
+img {max-width:100%}*/
