@@ -267,33 +267,28 @@ footer p   {
 }
 
 .carousel-inner{
-    background-image: url('img/mac2.png');
-    background-size: 100%;
+/*    background-image: url('img/mac2.png');
+*/    background-size: 100%;
     background-repeat: no-repeat;
-    height: 700px;
+/*    height: 700px;*/
     right: 0;
     left: 0;
 
 }
 
-/*.carousel-inner > img {
-    margin: 40px 182px;
-    width: 69%;
-    height: 490px;
-    position: relative;
-}
-*/
+
 .carousel-inner > .item > img{
-       width:780px;
-       height:490px;
-       margin: 40px 180px;
-
-
+    width:460px;
+    height:345px;
+    left:0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
      }
 
-/*.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    max-width: 100%;
-    height: auto;
-}*/
-/*
-img {max-width:100%}*/
+
+.carousel-inner > .item > img {
+    border: 1px solid#ccc;
+}
+
+
